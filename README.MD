@@ -14,11 +14,11 @@ Unhappy with something? Bring it up on Slack in #dev or call for meeting. Or sim
 
 ## Naming
 
-| Type                 | Description and convention                | Example                       
-|-----------------------|-------------------------------|------------------------------|----------
-| Identification (id) | Everything that has is used to identify something should end with `id`. Do not use `no` or `number`  | `cartId`, `userId`, `orderId`                      |     |
-| A physical item | This is an item that is being sold online/in-store, e.g. a box of anti-histamine or a tube tooth paste. If you are referring to an item, use the above convention with `id`. We do not call this a `product`  | `item`, `itemId`               |
-Microservice | These names should contain any abbreviations (that is abbreviations of the service name) in the beginning. Either the name is an abbreviation or the full name is used, not both. Do not call your service some like `ps-product-service` but rather `product-service` | `oorc` (Order orchestrator), `ecom-order-return`|
+| Type                 | Description and convention | Example |                        
+|----------------------|----------------------------|---------|
+| Identification (id) | Everything that has is used to identify something should end with `id`. Do not use `no` or `number`  | `cartId`, `userId`, `orderId`
+| A physical item | This is an item that is being sold online/in-store, e.g. a box of anti-histamine or a tube tooth paste. If you are referring to an item, use the above convention with `id`. We do not call this a `product`  | `item`, `itemId` |
+Microservice | These names should contain any abbreviations (that is abbreviations of the service name) in the beginning. Either the name is an abbreviation or the full name is used, not both. Do not call your service some like `ps-product-service` but rather `product-service` | `oorc` (Order orchestrator), `ecom-order-return` |
 
 
 ## Conventions
@@ -53,6 +53,5 @@ The names of the methods in you converter class should contain a verb so that it
 Should just be named after the instance variable that they are fetching, e.g. `orderId()` instead of `getOrderId()`. Remember:
 
 ``` "get is for old timers" - David Strömberg ```
-
 
 
